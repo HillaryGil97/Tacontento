@@ -6,33 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Tacontento</title>
-    
 </head>
 <body>
     <header>
-        <img 
-        src="images/logo.JPG"  width="200" height="100"
-        alt="Tacontento"/>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">Menu</a>
-                </li>
-                <li>
-                    <a href="">Ubicación</a>
-                </li>
-                <li>
-                    <a href="">Pedir en linea</a>
-                </li>
-                <li>
-                    <a href="">Promociones</a>
-                </li>
-                <li>
-                    <a href="">Contacto</a>
-                </li>
-                
-            </ul>
-        </nav>
+        
+             <img 
+                src="images/logo.JPG"  width="200" height="100"
+                alt="Tacontento"/>
+            
+            <nav>
+                <section class="wrapper-flex">
+                <div class="square">
+                    <a href="#menu">Menú</a>
+                </div>
+                <div class="square">
+                    <a href="#ubicacion">Ubicación</a>
+                </div>
+                <div class="square">
+                    <a href="#linea">Pedir en linea</a>
+                </div>
+                <div class="square">
+                    <a href="#promociones">Promociones</a>
+                </div>
+                <div class="square">
+                    <a href="#contacto">Contacto</a>
+                </div>   
+            </section> 
+            </nav>
+      
         <form action="">
             <fieldset>
                  <label for="idInput">Buscar</label>
@@ -43,6 +44,7 @@
     </header>
     <main>
         <section>
+            <a name="menu" id="menu"></a>
             <h2>Nuestras Especialidades</h2>
             <ul>
                 <li>Pastor</li>
@@ -52,6 +54,7 @@
             </ul>
         </section>
         <section>
+            <a name="promociones" id="promociones"></a>
             <h2>Promociones Vigentes</h2>
             <article>
                 <img src="images/promo1.JPG" alt="Promoción 3x2">
@@ -69,7 +72,7 @@
     </main>
     <footer>
         <h3>Elaborado por Hilly & Dana <br>copyrigth &copy;</h3>
-        <a title="FB Tacontento" href="https://www.facebook.com/Tacontento/">
+        <a  name="contacto" id="contacto" title="FB Tacontento" href="https://www.facebook.com/Tacontento/">
             <img src="https://image.shutterstock.com/image-photo/valencia-spain-march-05-2017-260nw-593204357.jpg" alt="Tacontento"  width="50" height="50"/>
         </a>
     </footer>
